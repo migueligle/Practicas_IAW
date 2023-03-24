@@ -61,7 +61,8 @@
             echo "<p>Almas en pena de inisherin: $peli3 votos</p>";
             echo " <p style='width: $barra3%; background-color: blue;'>&nbsp</p>";
         } else {
-            if (!is_numeric($peli1) && !is_numeric($peli2) && !is_numeric($peli3)) {
+            if (!is_numeric($peli1) || !is_numeric($peli2) || !is_numeric($peli3)) {
+                echo "<h1>Error</h1>";
                 echo "<p class='error'>no puede contener caracteres alfabeticos</p>";
             } elseif ($peli1 > 10 || $peli2 > 10 || $peli3 > 10) {
                 echo "<h1>Error</h1>";
