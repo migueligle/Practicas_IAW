@@ -1,0 +1,78 @@
+*{
+    font-family: sans-serif;
+    size: 2em;
+}
+h1{
+font-size: 3.5em;
+    margin:auto ;
+    text-align: center;
+    color: rgb(114, 255, 255);
+    margin-top: .5em;
+    padding-bottom: 1.3em;
+}
+button{
+    background-color: darkred;
+    color: white;
+border: none;
+    border-radius: 0 10px 10px 0;
+    position: fixed;
+    width: 72px;
+    height: 59px;
+    font-size: 1.8em;
+}
+input{
+    color: #fd5f5f;
+    width: 85%;
+    height: 56px;
+    font-size: 1.8em;
+    border-radius: 12px 0 0 12px;
+    border: #fd5f5f solid 1px;
+
+}
+li{
+    font-size: 2em;
+    color: rgb(114, 255, 255);
+}
+.marcar {
+    text-align: center;
+    display: inline-block;
+    font-size: .8em;
+    color: white;
+    text-decoration: none;
+    background-color: darkgreen;
+    width: 100px;
+    border-radius: 5px;
+
+}
+.marcar:hover{
+    background-color: green;
+}
+.quitar{
+    display: inline-block;
+    font-size: .8em;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: darkred;
+    width: 100px;
+    border-radius: 5px;
+
+}
+.quitar:hover{
+    background-color: red;
+}
+.desmarcar{
+    text-align: center;
+    display: inline-block;
+    font-size: .8em;
+    color: white;
+    text-decoration: none;
+    background-color: darkblue;
+    width: 130px;
+    border-radius: 5px;
+    margin-left: 8px;
+
+}
+.desmarcar:hover{
+    background-color: blue;
+}
