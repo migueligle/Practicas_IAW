@@ -1,0 +1,132 @@
+body{
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+form{
+    display: grid;
+place-items: center;
+}
+nav{
+    display: grid;
+    place-items: center;
+    font-size: 2.7em;
+    font-family: sans-serif;
+
+}
+p{
+    display: grid;
+    place-items: center;
+
+}
+input{
+    width: 50%;
+    height: 40px;
+    border: solid 1px gray;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+button{
+    width: 50%;
+    height: 40px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+button:hover{
+    background-color: blue;
+}
+a{
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    border: solid 1px dodgerblue;
+    color: white;
+    background-color: dodgerblue;
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: blue;
+}
+.listado{
+  display: grid;
+    place-items: center;
+    width: 100%;
+}
+.eliminar{
+display: grid;
+    float: right;
+    width: 20%;
+    height: 30px;
+    background-color: #cc1515;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+
+
+}
+li{
+    padding-top: 10px;
+    padding-left: 10px;
+    display: grid;
+    place-items: center;
+    display: block;
+    border: solid 1px gray;
+    width: 700px;
+    height: 50px;
+    list-style: none;
+    border-radius: 5px;
+    border-collapse: collapse;
+    padding-right: 10px;
+
+}
+
+
+.borrarLista{
+    display: grid;
+    float: left;
+    text-decoration: none;
+    border: solid 1px #cc1515;
+    color: white;
+    background-color: #cc1515;
+    width: 10%;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 520px;
+
+}
+.logout{
+    display: grid;
+    place-items: center;
+    margin-right: 520px;
+    text-decoration: none;
+    text-align: center;
+    border: solid 1px #dead4e;
+    color: #000000;
+    background-color: #dead4e;
+    width: 10%;
+    height: 70px;
+    border-radius: 5px;
+
+}
+.logout:hover{
+    background-color: rgba(170,126,0,0.89);
+}
+.borrarLista:hover{
+    background-color: darkred;
+}
+.eliminar:hover{
+    background-color: darkred;
+}
+h2{
+   margin-right: 520px;
+    padding-top: 2em;
+}
+#error{
+    color: #cc1515;
+}
