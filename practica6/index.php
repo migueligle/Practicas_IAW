@@ -122,6 +122,8 @@ if (isset($_GET["or"])) {
             echo "<td>$provincia</td>";
             echo "<td>$poblacion</td>";
             echo "</tr>";
+			$st->close;
+			$con->close;
 
         }
     } catch (mysqli_sql_exception $e) {
