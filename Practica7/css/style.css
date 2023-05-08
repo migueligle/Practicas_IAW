@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+}
+
+
+nav {
+    background-color: #bebebe;
+position: absolute;
+    width: 100%;
+    height: 120px;
+    top: 0;
+    left: 0;
+}
+#fmosca{
+    text-align: center;
+    margin-left: 50%;
+position: fixed;
+
+    padding: 5px;
+
+
+}
+#forfondo{
+    text-align: center;
+    margin-left: 20%;
+    position: fixed;
+
+
+
+}
+input{
+    width: 15%;
+}
+.hfondo{
+
+}
+.hmosca{
+
+}
+.mosca {
+
+overflow: hidden;
+    width: 100px;
+    height: 100px;
+
+}
+.fmosca{
+    width: 100%;
+    height: 100%;
+margin-top: 7em;
+   left: 0;
+position: fixed;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.mosqui{
+    background-color: #05101e;
+}

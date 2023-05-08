@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+  <link rel="stylesheet" href="css/style.css?v=8">
+</head>
+<body id="cuerpo">
+<nav>
+<section id="formu">
+
+  <form id="forfondo">
+    <h1 class="hfondo">Fondo</h1>
+    <label for="rojo">Rojo</label>
+    <input type="number" name="rojo" min="128" max="255" id="rojo" value="255">
+    <label for="verde">Verde</label>
+    <input type="number" name="verde" min="128" max="255" id="verde"  value="255">
+    <label for="azul">Azul</label>
+    <input type="number" name="azul" min="128" max="255" id="azul"  value="255">
+
+  </form>
+</section>
+<section>
+
+  <form id="fmosca">
+    <h1 class="hmosca">Mosca</h1>
+    <label for="x">Posición X</label>
+    <input type="number" name="x" id="x" min="0" max="95" value="0">
+    <label for="y">Posición Y</label>
+    <input type="number" name="y" id="y" min="0" max="45"value="0"><br>
+    <label for="rotacion">Rotación</label>
+    <input type="number" name="rotacion" id="r" value="0">
+    <button id="nmosca"> Nueva mosca</button>
+  </form>
+
+</section>
+
+
+</nav>
+<section class="fmosca">
+  <img src="img/rojo.svg" alt="mosca" class="mosca " id="mosca">
+</section>
+<script src="js/accion.js"></script>
+</body>
+</html>
